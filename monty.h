@@ -68,4 +68,10 @@ void addqueue(stack_t **head, int n);
 void _queue(stack_t **head, unsigned int counter);
 void _stack(stack_t **head, unsigned int counter);
 ssize_t getline(char **lineptr, size_t *n, FILE *stream);
+void _mod(stack_t **head, unsigned int counter);
+void _mul(stack_t **head, unsigned int counter);
+void _sub(stack_t **head, unsigned int counter);
+void _div(stack_t **head, unsigned int counter);
+
+
 #endif
